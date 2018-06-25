@@ -1,7 +1,6 @@
 const Product = require("../models/product.model");
 
-//simple version, without validation
-
+//Simple version, without validation
 exports.test = function(req, res) {
-  res.send("Greetings from the Test Controller oh yeahhhhhh!");
+  res.send("Greetings from the Test controller!");
 };
